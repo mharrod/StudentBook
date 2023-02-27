@@ -1,0 +1,3 @@
+# StudentBook
+
+This is a Python script that uses the FastAPI framework to create a simple REST API for a list of students. The API allows for retrieving a list of students, getting the details of a specific student, creating a new student, updating an existing student, and deleting a student. The students are stored in a list in the script and the BaseModel class from Pydantic is used to define the expected fields for a student. The script also contains error handling using the raise HTTPException function in case a student is not found. 
